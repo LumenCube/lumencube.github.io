@@ -1,0 +1,46 @@
+- type: default
+  title: About
+  slug: about
+  subtitle: fucking subtitle
+  content: >
+    LumenCube is my (mediachicken) pet project, on which
+    I'm the sole developer.
+
+    I've been slowly but surely developing this in my free time
+    for literally years. I hope one day I'm actually able
+    to release my pet into the zoo of games that exist in
+    this world of ours. But until that day comes, it will
+    remain as another large directory on my hard drive.
+
+- type: credits
+  title: Credits
+  slug: credits
+  subtitle: Subtitle
+  logo: http://mediachicken.com/images/chicken.png
+  content: >
+    LumenCube is my (mediachicken) pet project, on which
+    I'm the sole developer.
+
+    I've been slowly but surely developing this in my free time
+    for literally years. I hope one day I'm actually able
+    to release my pet into the zoo of games that exist in
+    this world of ours. But until that day comes, it will
+    remain as another large directory on my hard drive.
+
+- type: contact
+  title: Contact
+  slug: contact
+  subtitle: fucking subtitle
+  content: >
+    Wanna get in contact me for something? Maybe you wanna
+    be a part of this project in some way, or just wanna
+    say hi and give me some encouragement? Whatever the reason
+    may be, just drop a line to my email below.
+  email: self@mediachicken.com
+  social:
+    - title: adn
+      url: https://alpha.app.net/kirbyt
+    - title: twitter
+      url: http://twitter.com/kirbyt
+    - title: github
+      url: http://github.com/kirbyt
