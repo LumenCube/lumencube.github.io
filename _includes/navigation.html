@@ -6,7 +6,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  {{ site.title }}
+                    <img src="https://lumencube.s3.amazonaws.com/2015/Dec/cube-1450124478918.png" alt="LumenCube Logo" class="icon-logo" />  {{ site.title }}
                 </a>
             </div>
 
@@ -18,10 +18,10 @@
                         <a href="#page-top"></a>
                     </li>
 
-                    {% for page in site.pages | sort: "title" %}
+                    {% for page in site.data.components | sort: "title" %}
                     {% unless page.url == "/index.html" %}
                     <li>
-                        <a class="page-scroll" href="#{{ page.title }}">{{ page.title }}</a>
+                        <a class="page-scroll" href="#{{ page.slug }}">{{ page.title }}</a>
                     </li>
                     {% endunless %}
                     {% endfor %}
